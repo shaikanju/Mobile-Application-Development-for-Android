@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+
+    <TextView
+        android:id="@+id/DayandDate"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="2dp"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/forecastTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#FFFFFF"
+        android:text="TextView"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DayandDate" />
+
+    <TextView
+        android:id="@+id/forecastDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textColor="#FFFFFF"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forecastTemp" />
+
+    <TextView
+        android:id="@+id/precipitation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="2dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forecastDesc" />
+
+    <TextView
+        android:id="@+id/Uvindex"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="4dp"
+        android:textColor="#FFFFFF"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/precipitation" />
+
+    <ImageView
+        android:id="@+id/forecastIcon"
+        android:layout_width="108dp"
+        android:layout_height="95dp"
+        android:layout_marginStart="128dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toEndOf="@+id/forecastTemp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/Morning"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forecastIcon" />
+
+    <TextView
+        android:id="@+id/Afternoon"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="40dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/Morning"
+        app:layout_constraintTop_toBottomOf="@+id/forecastIcon" />
+
+    <TextView
+        android:id="@+id/Evening"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="40dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/Afternoon"
+        app:layout_constraintTop_toBottomOf="@+id/forecastIcon" />
+
+    <TextView
+        android:id="@+id/Night"
+        android:layout_width="75dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="40dp"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@+id/Evening"
+        app:layout_constraintTop_toBottomOf="@+id/forecastIcon" />
+</androidx.constraintlayout.widget.ConstraintLayout>
