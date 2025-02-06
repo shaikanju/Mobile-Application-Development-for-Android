@@ -10,3 +10,7 @@ Weather App: Displays current weather and a 7-day forecast for any location, usi
 News of the World App: A news aggregator that shows the latest world news, categorized by topics, and allows users to bookmark and share articles.
 
 CTA Bus Tracker App: Tracks CTA buses in real-time, displaying estimated arrival times and route information
+--->Technologies Used
+Java
+Android Studio
+REST APIs
