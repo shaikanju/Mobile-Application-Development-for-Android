@@ -1,0 +1,30 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_topics"
+        android:title="Topics"
+        app:showAsAction="never">
+    <menu>
+        <!-- The submenu items will be dynamically added from the code -->
+        <!-- These will be the unique categories you want to display -->
+    </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_countries"
+        android:title="Countries"
+        app:showAsAction="never">
+        <menu></menu>
+    </item>
+    <item
+        android:id="@+id/action_languages"
+        android:title="Languages"
+        app:showAsAction="never">
+        <menu></menu>
+    </item>
+
+    <item
+        android:id="@+id/action_clear_all"
+        android:title="Clear All"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Set the fontFamily globally -->
+        <item name="android:fontFamily">@font/helvetica_neue_medium</item>
+        <item name="fontFamily">@font/helvetica_neue_medium</item>
+    </style>
+
+</resources>

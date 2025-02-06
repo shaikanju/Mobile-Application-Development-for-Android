@@ -1,0 +1,21 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Apply Faustina font globally -->
+        <item name="android:fontFamily">@font/faustina_regular</item>
+        <item name="fontFamily">@font/faustina_regular</item>
+
+        <!-- Optional: Ensure Toolbar uses the font -->
+        <item name="toolbarStyle">@style/CustomToolbarStyle</item>
+    </style>
+
+    <style name="CustomToolbarStyle" parent="Widget.AppCompat.Toolbar">
+        <item name="titleTextAppearance">@style/CustomToolbarTitleTextAppearance</item>
+    </style>
+
+    <style name="CustomToolbarTitleTextAppearance" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:fontFamily">@font/faustina_regular</item>
+        <item name="fontFamily">@font/faustina_regular</item>
+    </style>
+
+</resources>
